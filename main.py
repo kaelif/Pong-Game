@@ -28,7 +28,7 @@ paddle_b.shape("square")
 paddle_b.color("white")
 paddle_a.shapesize(stretch_wid=5, stretch_len=1)
 paddle_b.penup()
-paddle_b.goto(350)
+paddle_b.goto(350, 0)
 
 # Ball
 paddle_b = turtle.Turtle()
@@ -36,7 +36,7 @@ paddle_b.speed(0)
 paddle_b.shape("square")
 paddle_b.color("white")
 paddle_b.penup()
-paddle_b.goto(350)
+paddle_b.goto(0, 0)
 
 # Function
 y_a = paddle_a.ycor()
